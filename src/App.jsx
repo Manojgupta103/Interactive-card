@@ -19,11 +19,11 @@ function App() {
             <input type="text" placeholder='e.g. 1234 5678 9123 0000'  />
 
             <h4>EXP. DATE (MM/YY)</h4>
-            <input type="Number" placeholder='MM' style={{ width: '60px' }} />
-            <input type="Number" placeholder='YY' style={{ width: '60px' }} />
-
+            <input type="Number" placeholder='MM' style={{ width: '70px' }} />
+            <input type="Number" placeholder='YY' style={{ width: '70px' }} />
             <h4>CVV</h4>
-            <input type="Number" placeholder='e.g. 123' style={{ width: '60px' }} />
+            <input type="Number" placeholder='e.g. 123' style={{ width: '75px' }} />
+            <br></br>
             <button>Confirm</button>
           </div>
         </div>
