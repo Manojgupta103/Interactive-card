@@ -9,11 +9,11 @@ function App() {
       <div className="box">
         <div className="image-section">
           <img src="./images/bg-main-desktop.png" alt="Sample" />
-          <div className='card'>
-            <img src="./images/bg-card-front.png" alt="Sample" />
+          <div className='card' >
+            <img src="./images/bg-card-front.png" alt="Sample" style={{ borderRadius: '10px' }} />
           </div>
-          <div className='card-back'>
-            <img src="./images/bg-card-back.png" alt="Sample" />
+          <div className='card-back' >
+            <img src="./images/bg-card-back.png" alt="Sample" style={{ borderRadius: '10px' }} />
           </div>
         </div>
         <div className="color-section">
