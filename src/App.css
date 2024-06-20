@@ -46,7 +46,7 @@ body {
   justify-content: center;
   padding: 20px;
   margin-top: 30vh;
-  margin-left: 15vw;
+  margin-left: 20vw;
 }
 
 .form h1{
@@ -63,6 +63,11 @@ body {
   border-radius: 5px;
   font-size: 18px;
 }
+input[type=number]::-webkit-outer-spin-button,
+input[type=number]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
 
 .form button{
   width: 50%;
@@ -73,4 +78,22 @@ body {
   border-radius: 5px;
   background-color: #333;
   color: white;
+}
+
+.card {
+  position: absolute;
+  top: 30vh;
+  left: 25vw;
+  width: 25vw;
+  height: 25vh;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+}
+.card-back{
+  position: absolute;
+  top: 60vh;
+  left: 30vw;
+  width: 25vw;
+  height: 25vh;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+  
 }
